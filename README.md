@@ -5,7 +5,7 @@ SPT 5 IL2CPP overlay with player names, boxes and skeletons. This is a standalon
 这是已在本地游戏中目测确认位置和性能的版本，其他版本与模组组合仍需验证，按实验预览版发布。
 
 - [Compiled downloads](https://github.com/ColorC/TarkovEsp/releases)
-- [Gameplay demo with Pit FireTeam](https://github.com/ColorC/SPT-PitFireTeam/releases/download/v0.10.3-spt5-preview.1/spt5-pitfireteam-wedge-demo-720p30.mp4)
+- [Gameplay demo with Pit FireTeam](https://github.com/ColorC/SPT-PitFireTeam/releases/download/v0.10.3-spt5-preview.1/spt5-pitfireteam-wedge-demo-annotated-720p30.mp4)
 
 ## Target and install
 
