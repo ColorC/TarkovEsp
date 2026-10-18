@@ -28,3 +28,7 @@ dotnet build ./TarkovEsp.csproj -c Release -p:ClientRuntimeRoot='D:\Games\SPT5'
 Package only `bin/Release/net6.0/TarkovEsp.dll`. Never copy game/interoperability DLLs from the build output into a public release. The project marks dependency references as non-copying.
 
 MIT. This project is a local single-player mod; it is not an official EFT, SPT or upstream Lilith/Lilly release.
+
+## 2026-10-18 companion update
+
+Pit FireTeam [preview.2](https://github.com/ColorC/SPT-PitFireTeam/releases/tag/v0.10.3-spt5-preview.2) adds core follower maintenance fixes. The [early-raid performance investigation](https://github.com/ColorC/SPT-PitFireTeam/blob/spt5-preview/docs/PERFORMANCE-20261018.md) documents a separate source-only runtime experiment and its incomplete stability acceptance. ESP source and its visually accepted compiled DLL are unchanged; no new ESP binary release is implied. The existing single demo link above remains the demonstration.
