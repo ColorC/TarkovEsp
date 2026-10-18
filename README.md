@@ -32,3 +32,7 @@ MIT. This project is a local single-player mod; it is not an official EFT, SPT o
 ## 2026-10-18 companion update
 
 Pit FireTeam [preview.2](https://github.com/ColorC/SPT-PitFireTeam/releases/tag/v0.10.3-spt5-preview.2) adds core follower maintenance fixes. The [early-raid performance investigation](https://github.com/ColorC/SPT-PitFireTeam/blob/spt5-preview/docs/PERFORMANCE-20261018.md) documents a separate source-only runtime experiment and its incomplete stability acceptance. ESP source and its visually accepted compiled DLL are unchanged; no new ESP binary release is implied. The existing single demo link above remains the demonstration.
+
+## 2026-10-19 Woods follow-up
+
+[Measured dependency-level fixes](https://github.com/ColorC/SPT-PitFireTeam/blob/spt5-preview/docs/PERFORMANCE-20261019.md) and Pit FireTeam preview.3 are documented in the companion repository. ESP source and accepted binary remain unchanged; no new ESP binary or second demo is published.
