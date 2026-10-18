@@ -1,0 +1,24 @@
+{
+  "preview": true,
+  "target": {
+    "eft": "1.1.5.47242 IL2CPP",
+    "spt": "5.0.0 BEM ec15a4"
+  },
+  "files": [
+    {
+      "path": "BepInEx/plugins/TarkovEsp/TarkovEsp.dll",
+      "bytes": 42496,
+      "sha256": "dc77b2ee1ed56cb501d63c1a6a34bd645a073a83c61bacffcc28135f81f78430"
+    },
+    {
+      "path": "TarkovEsp-docs/LICENSE",
+      "bytes": 1084,
+      "sha256": "b1392ab92c54c5a322c968def35a06a681853336d2b51a8af3b286e077281422"
+    },
+    {
+      "path": "TarkovEsp-docs/README.md",
+      "bytes": 2505,
+      "sha256": "c127e7e1d6e19d9e47744221fce1401a61e7c80767973764b12e1f8fece81993"
+    }
+  ]
+}

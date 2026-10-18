@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TarkovEsp</RootNamespace>
+    <AssemblyName>TarkovEsp</AssemblyName>
+    <Version>0.2.0</Version>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Comfort">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\interop\Comfort.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\core\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\interop\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\interop\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <Private>false</Private><HintPath>$(ClientRuntimeRoot)\BepInEx\interop\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+bin/
+obj/
+*.user
+.vs/
+
+# Local publication/build artifacts
+artifacts/
+**/bin/
+**/obj/
+*.user
+*.dmp
